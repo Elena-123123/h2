@@ -1,0 +1,19 @@
+// main: style.less
+
+.title {
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 31px;
+}
+.work-title {
+    color: @titleColor;
+    &::after {
+        content: '';
+         display: block;
+         width: 80%;
+         background-color: @titleColor;
+    }
+}
+.work-price-title {
+    color: @titleColor;
+}
